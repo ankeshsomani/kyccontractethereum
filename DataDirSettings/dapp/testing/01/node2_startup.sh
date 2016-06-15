@@ -1,0 +1,2 @@
+#!/bin/bash
+geth --identity "Banking1_B" --genesis /usr/local/dapp/json/test.json --rpc --rpcaddr "159.203.113.140" --rpcport "8102" --rpccorsdomain "*" --datadir "/usr/local/dapp/testing/01" --port "30304" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3,admin,personal" --autodag --networkid 1900 --nat "any" js /usr/local/dapp/testing/01/startup.js >> /usr/local/dapp/testing/01/logs/Node2.log

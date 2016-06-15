@@ -1,0 +1,58 @@
+1) install geth(Go ethereum) on linux machine using below link
+https://ethereum.gitbooks.io/frontier-guide/content/installing_linux.html
+
+2) Install solc(solidity compiler) on machine using below link
+https://github.com/ethereum/go-ethereum/wiki/Contract-Tutorial
+
+
+http://adeduke.com/2015/08/how-to-create-a-private-ethereum-chain/
+
+Linking your compiler in Geth
+
+Now go back to the console and type this command to install solC, replacing path/to/solc to the path that you got on the last command you did:
+
+admin.setSolc("path/to/solc")
+Now type again:
+
+eth.getCompilers()
+sudo ntpdate -s time.nist.gov
+
+$ geth --verbosity 0 console
+geth account list
+eth.accounts
+web3.fromWei(eth.getBalance(eth.coinbase), "ether")
+
+geth --genesis /usr/local/dapp/json/test.json --datadir /usr/local/dapp/testing/00 --networkid 123 --nodiscover --maxpeers 0 console
+
+
+geth --genesis /usr/local/dapp/json/test.json --datadir /usr/local/dapp/testing/00 --rpc --rpccorsdomain "http://107.170.52.200:8545" --networkid 123  --nodiscover --maxpeers 5 console
+
+geth --datadir /usr/local/dapp/testing/00 --networkid 123 --nodiscover --maxpeers 5 console
+
+miner.stop()
+
+eth.sendTransaction({from: "0x3e725d7f8ad1c91a557c5636b634efbba9f898c1", to: "0x74318d63b715391bec35e36cd1a9234a90a01faa", value: web3.toWei(1, "ether")})
+
+geth --bootnodes 'enode://595ef063eea48941a1ded857e6137cbf669141fdd43b1aa887d27ff34d66e9283d24a7d2a48f6a5345ffa86eef2bf4cdf25bc5ca9985fd1620ed9ca399c0da50@104.236.226.41:30301' "enode://f36e2e6444af223da802487aa7f744ae18f789562ac50f7936bd60e6e7f8ceb8656ea9c02d42b9a451d852d0404c9e454a9627ef2151c6673bbdee6d170d853d@159.203.113.140:30301" --genesis /usr/local/dapp/json/test.json --datadir /usr/local/dapp/testing/00 --networkid 12345 -verbosity 6 --ipcdisable --port 30301 --rpcport 8101 console 2>> /usr/local/dapp/testing/00/01.log
+admin.addPeer('enode://f36e2e6444af223da802487aa7f744ae18f789562ac50f7936bd60e6e7f8ceb8656ea9c02d42b9a451d852d0404c9e454a9627ef2151c6673bbdee6d170d853d@159.203.113.140:30301')
+admin.addPeer('enode://595ef063eea48941a1ded857e6137cbf669141fdd43b1aa887d27ff34d66e9283d24a7d2a48f6a5345ffa86eef2bf4cdf25bc5ca9985fd1620ed9ca399c0da50@104.236.226.41:30301')
+geth --genesis /usr/local/dapp/json/test.json --datadir /usr/local/dapp/testing/00 --networkid 123456 -verbosity 6 --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --port 30301 --rpcport 8101 console 2>> /usr/local/dapp/testing/00/01.log
+geth --genesis /usr/local/dapp/json/test.json --datadir /usr/local/dapp/testing/00 -verbosity 6 --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --port 30301 --networkid 123456 --rpcport 8101 console 2>> /usr/local/dapp/testing/00/01.log
+geth attach http://107.170.52.200:30301
+
+
+admin.startRPC("107.170.52.100", 8545, "*", "web3,db,net,eth")
+
+https://dappsforbeginners.wordpress.com/tutorials/javascript-api-1/
+https://forum.ethereum.org/discussion/2266/how-can-i-interact-with-a-remote-node-using-web3-js
+
+
+geth --identity "Banking1_A" --genesis /usr/local/dapp/json/test.json --rpcport "8101" --rpccorsdomain "*" --datadir "/usr/local/dapp/testing/00" --port "30303" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --networkid 1900 --nat "any" console
+
+
+geth --identity "Banking1_B" --genesis /usr/local/dapp/json/test.json --rpcport "8101" --rpccorsdomain "*" --datadir "/usr/local/dapp/testing/01" --port "30304" --nodiscover --ipcapi "admin,db,eth,debug,miner,net,shh,txpool,personal,web3" --rpcapi "db,eth,net,web3" --autodag --networkid 1900 --nat "any" console
+
+admin.addPeer('enode://f36e2e6444af223da802487aa7f744ae18f789562ac50f7936bd60e6e7f8ceb8656ea9c02d42b9a451d852d0404c9e454a9627ef2151c6673bbdee6d170d853d@[::]:30303?discport=0');
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');
+
+eth.sendTransaction({from: "0x3e725d7f8ad1c91a557c5636b634efbba9f898c1", to: "0x71e3e34c350f973f45712521cc5b050e550ead38", value: web3.toWei(8, "ether")})

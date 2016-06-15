@@ -1,0 +1,71 @@
+
+####################################################################
+#                                                                  #
+# --genesis is deprecated. Switch to use 'geth init /path/to/file' #
+#                                                                  #
+####################################################################
+
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+
+####################################################################
+#                                                                  #
+# --genesis is deprecated. Switch to use 'geth init /path/to/file' #
+#                                                                  #
+####################################################################
+
+== No transactions! Mining stopped.
+
+####################################################################
+#                                                                  #
+# --genesis is deprecated. Switch to use 'geth init /path/to/file' #
+#                                                                  #
+####################################################################
+
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+
+####################################################################
+#                                                                  #
+# --genesis is deprecated. Switch to use 'geth init /path/to/file' #
+#                                                                  #
+####################################################################
+
+Fatal: Could not open database: resource temporarily unavailable
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+== Pending transactions! Mining...
+== No transactions! Mining stopped.
+
+####################################################################
+#                                                                  #
+# --genesis is deprecated. Switch to use 'geth init /path/to/file' #
+#                                                                  #
+####################################################################
+
+Fatal: Could not open database: resource temporarily unavailable

@@ -1,0 +1,55 @@
+admin.startRPC("159.203.113.140", 8101, "*", "web3,db,net,eth,miner,personal,admin")
+admin.nodeInfo
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');
+admin.startRPC("159.203.113.140", 8101, "*", "web3,db,net,eth,miner,personal,admin")
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');
+miner.start()
+miner.stop()
+admin.startRPC("159.203.113.140", 8101, "*", "web3,db,net,eth,miner,personal,admin")
+admin.nodeInfo
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');
+var mining_threads = 1
+function checkWork() {
+    if (eth.getBlock("pending").transactions.length > 0) {
+        if (eth.mining) return;
+        console.log("== Pending transactions! Mining...");
+        miner.start(mining_threads);
+    } else {
+        miner.stop();  // This param means nothing
+        console.log("== No transactions! Mining stopped.");
+    }
+}
+eth.filter("latest", function(err, block) { checkWork(); });
+eth.filter("pending", function(err, block) { checkWork(); });
+checkWork();
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');
+admin.startRPC("159.203.113.140", 8101, "*", "web3,db,net,eth,miner,personal,admin")
+function checkWork() {
+    if (eth.getBlock("pending").transactions.length > 0) {
+        if (eth.mining) return;
+        console.log("== Pending transactions! Mining...");
+        miner.start(mining_threads);
+    } else {
+        miner.stop();  // This param means nothing
+        console.log("== No transactions! Mining stopped.");
+    }
+}
+eth.filter("latest", function(err, block) { checkWork(); });
+eth.filter("pending", function(err, block) { checkWork(); });
+checkWork();
+checkWork()
+function checkWork() {
+    if (eth.getBlock("pending").transactions.length > 0) {
+        if (eth.mining) return;
+        console.log("== Pending transactions! Mining...");
+        miner.start();
+    } else {
+        miner.stop();  // This param means nothing
+        console.log("== No transactions! Mining stopped.");
+    }
+}
+eth.filter("latest", function(err, block) { checkWork(); });
+eth.filter("pending", function(err, block) { checkWork(); });
+checkWork();
+admin.startRPC("159.203.113.140", 8101, "*", "web3,db,net,eth,miner,personal,admin")
+admin.addPeer('enode://e457c13c301890ce08202e9846ab9531a27f4269e9376c784b4581e13be0ff5472bcc311b57250ee74159e6fd85142fbd5194df7951ca7076e09ab841817e320@[::]:30304?discport=0');

@@ -1,0 +1,35 @@
+https://www.sitepoint.com/spice-up-your-slack-channel-with-hubot/
+npm install -g hubot coffee-script yo generator-hubot
+
+Option	Description
+yo hubot --owner="Ankesh Somani" --name="MyHubot" --description="Delightfully aware robutt" --adapter=slack --defaults
+BANK2
+HUBOT_SLACK_TOKEN=xoxb-47914435510-H3MhMxLCpBmsPBGZUAy6TXdC ./bin/hubot --adapter slack
+https://www.youtube.com/watch?v=A7fh6RIzGrw
+
+http://stackoverflow.com/questions/15723017/can-i-write-scripts-for-hubot-in-javascript
+
+^Croot@banking2:/usr/local/HubotBank2# ./hubot2_startup.sh &
+[1] 21759
+
+
+
+
+
+BANK1
+HUBOT_SLACK_TOKEN=xoxb-49341171603-uuJJ1lARxhtFe6FutkrnYVpI ./bin/hubot --adapter slack
+
+root@banking2:/usr/local/HubotBank1# /usr/local/HubotBank1/hubot1_startup.sh &
+[1] 21599
+
+
+ps -ef|grep geth
+crontab -e
+ps -ef|grep geth
+root@banking:/usr/local/dapp/testing/00# ps -ef|grep geth
+root     29191 29190  1 00:55 ?        00:00:01 geth --identity Banking1_A --genesis /usr/local/dapp/json/test.json --rpc --rpcaddr 159.203.113.140 --rpcport 8101 --rpccorsdomain * --datadir /usr/local/dapp/testing/00 --port 30303 --nodiscover --ipcapi admin,db,eth,debug,miner,net,shh,txpool,personal,web3 --rpcapi db,eth,net,web3,admin,personal --autodag --networkid 1900 --nat any js /usr/local/dapp/testing/00/startup.js
+root     29224 28777  0 00:57 pts/0    00:00:00 grep --color=auto geth
+root@banking:/usr/local/dapp/testing/00# ps -ef
+UID        PID  PPID  C STIME TTY          TIME CMD
+PID which was 29191 above needs to be passed.
+ kill -9 29191

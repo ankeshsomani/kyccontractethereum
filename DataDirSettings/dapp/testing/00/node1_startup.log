@@ -1,0 +1,64 @@
+I0613 02:12:01.797910 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to /usr/local/dapp/testing/00/chaindata
+I0613 02:12:01.892095 ethdb/database.go:169] closed db:/usr/local/dapp/testing/00/chaindata
+I0613 02:12:01.894109 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to /usr/local/dapp/testing/00/chaindata
+I0613 02:12:01.917509 ethdb/database.go:82] Alloted 16MB cache and 16 file handles to /usr/local/dapp/testing/00/dapp
+I0613 02:12:01.936047 eth/backend.go:170] Protocol Versions: [63 62 61], Network Id: 1900
+I0613 02:12:01.937973 core/genesis.go:92] Genesis block already in chain. Writing canonical number
+I0613 02:12:01.938063 eth/backend.go:178] Successfully wrote custom genesis block: 4c8a2bf70411968b070027cf8db0b5c24bedcf2f14643d45352b21eeefbfe617
+I0613 02:12:01.938216 eth/backend.go:199] Blockchain DB Version: 3
+I0613 02:12:01.940215 core/blockchain.go:206] Last header: #2461 [1bf4710e…] TD=528704937
+I0613 02:12:01.940251 core/blockchain.go:207] Last block: #2461 [1bf4710e…] TD=528704937
+I0613 02:12:01.940269 core/blockchain.go:208] Fast block: #2461 [1bf4710e…] TD=528704937
+I0613 02:12:01.947992 p2p/server.go:311] Starting Server
+I0613 02:12:01.956027 p2p/server.go:554] Listening on [::]:30303
+I0613 02:12:01.956584 eth/backend.go:450] Automatic pregeneration of ethash DAG ON (ethash dir: /root/.ethash)
+I0613 02:12:01.957584 node/node.go:368] HTTP endpoint opened: http://159.203.113.140:8101
+I0613 02:12:01.957829 node/node.go:298] IPC endpoint opened: /usr/local/dapp/testing/00/geth.ipc
+I0613 02:12:01.977972 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0613 04:34:13.800362 eth/api.go:1180] Tx(0x185fd6ead7053e9bd77e851a58739887b9932ec747b80d0c5b89e064737f2085) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0613 04:34:21.956856 eth/downloader/downloader.go:295] Block synchronisation started
+I0613 04:34:23.313748 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 1.324818442s. #2462 [3096e80a / 3096e80a]
+I0613 04:34:23.318369 core/blockchain.go:959] imported 0 block(s) (0 queued 1 ignored) including 0 txs in 4.456567ms. #2462 [3096e80a / 3096e80a]
+I0613 07:25:22.163194 eth/api.go:1180] Tx(0xbab517c78709f3a503fcbc0a57f137b98c321cf4882fe256bd09e2a1b876f10e) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0613 07:25:53.547607 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 9.363447ms. #2463 [69ae9470 / 69ae9470]
+I0613 12:12:01.978377 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0613 22:12:01.979427 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0614 00:35:39.055258 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 9.005408ms. #2464 [f586ce64 / f586ce64]
+I0614 00:37:25.615440 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 14.73643ms. #2465 [e2b8478a / e2b8478a]
+I0614 00:37:26.831407 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 0 txs in 5.312916ms. #2466 [42cb9165 / 42cb9165]
+I0614 00:38:55.896729 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 11.749056ms. #2467 [466f0332 / 466f0332]
+I0614 00:41:11.865998 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 7.776498ms. #2468 [e6eb57f6 / e6eb57f6]
+I0614 00:50:55.147646 eth/api.go:1180] Tx(0xa94125bb281b4d4592165c5adaef30e32dd4dfce5bf086595ec37bc8e618d7ce) to: 0x889052c2fc91995558382c3d176f8f06699213b5
+I0614 00:51:07.163584 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 15.062916ms. #2469 [686049c3 / 686049c3]
+I0614 00:56:27.930490 eth/api.go:1180] Tx(0x16a09590a2a3f495fe87649533d2ee3aa94ce67c149e395f380afea26e27a052) to: 0x889052c2fc91995558382c3d176f8f06699213b5
+I0614 00:56:29.562658 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 11.09817ms. #2470 [2b35eaeb / 2b35eaeb]
+I0614 02:12:01.306738 ethdb/database.go:82] Alloted 128MB cache and 1024 file handles to /usr/local/dapp/testing/00/chaindata
+Fatal: Could not open database: resource temporarily unavailable
+I0614 02:22:40.500063 eth/api.go:1180] Tx(0x72817e272c8abf70d3af4c0f915847fccc11d45074e637d0f0b2598c96462407) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0614 02:23:00.399547 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 31.779177ms. #2471 [1883f79b / 1883f79b]
+I0614 02:24:48.068371 eth/api.go:1180] Tx(0xb66594561cc1d71e521a5f73d6b1d58f3c55f1812e48286e67be988bb5fa6cf3) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0614 02:27:46.572023 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 40.956618ms. #2472 [9663e725 / 9663e725]
+I0614 02:33:50.507008 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 18.458837ms. #2473 [fa45a627 / fa45a627]
+I0614 08:12:01.980214 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0614 09:16:14.596440 eth/api.go:1180] Tx(0x00f8c40090570fffc0e7a4356bfb41f6da579c7a5449d81d7de170934b3a571c) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0614 09:16:43.043810 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 16.98332ms. #2474 [11e155ab / 11e155ab]
+I0614 09:17:57.411483 eth/api.go:1180] Tx(0x750ff48b6c6fe8a58097f58fc2625e93cba22772249a5f00e681b44e40df130a) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0614 09:18:07.999657 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 10.863987ms. #2475 [ad8f3ee5 / ad8f3ee5]
+I0614 09:20:10.700360 eth/api.go:1180] Tx(0x082ff740ddaae13084f5960fe5e2347de14d67ec0e99cedfe21a5a7082e665ec) to: 0xe812ae8801be2dd0001a1b00700c1fdcfb0dc7e8
+I0614 09:21:45.835336 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 28.730572ms. #2476 [cf9141b9 / cf9141b9]
+I0614 18:12:01.981222 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0615 03:49:07.811701 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 15.386436ms. #2477 [371d246c / 371d246c]
+I0615 03:50:48.094710 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 12.499146ms. #2478 [3df10a37 / 3df10a37]
+I0615 03:52:06.671407 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 11.014987ms. #2479 [97f56a3b / 97f56a3b]
+I0615 03:53:18.907174 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 16.442139ms. #2480 [a2beecc9 / a2beecc9]
+I0615 04:10:12.563446 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 1 txs in 25.086536ms. #2481 [7884ded0 / 7884ded0]
+I0615 04:12:01.981902 eth/backend.go:457] checking DAG (ethash dir: /root/.ethash)
+I0615 04:30:07.539140 eth/api.go:1180] Tx(0xc01302d0dc5ff26bb1f62816013575c11446f6850193edd4dd9ab64c6dd8fe33) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 04:30:07.598906 eth/api.go:1180] Tx(0xda710b51317d7995598733d6a4f89d7064b72239d625fac7359dabbb971b2995) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 04:36:06.818693 eth/api.go:1180] Tx(0x04feea38e7d3ff43c2e55586bb39ab8098501d645bfa504cf23ee5b0e5fef855) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 04:36:07.586095 eth/api.go:1180] Tx(0x805c93b827482a56200d9544408721f1332b7584ff1e259074f1df4554b6e49e) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 04:45:22.163312 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 2 txs in 22.870917ms. #2482 [b297d8d4 / b297d8d4]
+I0615 04:45:22.426362 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 2 txs in 6.40813ms. #2483 [11855f1b / 11855f1b]
+I0615 06:09:32.451689 eth/api.go:1180] Tx(0xb326104485f6df4382603e74eb18c1a8b41fad93c8f3a0b7b0b783fd170fef28) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 06:09:32.531626 eth/api.go:1180] Tx(0x7c9c5b578bb0c16da8faaff262d19b486c6e907a713b1713fbd903bc914b86a1) to: 0xda4a69be259fb105a4b5b515bcb9bac1313dcf41
+I0615 06:15:33.002837 core/blockchain.go:959] imported 1 block(s) (0 queued 0 ignored) including 2 txs in 13.344441ms. #2484 [e98bac89 / e98bac89]
